@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CanCamper - Trail Detail</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="parallax trail-detail">
+            <header class="header  ">
+                <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+                <div class="text-right">
+                    <a class="showbutton button-bg" href="#popup1">
+                        <img src="images/safe.png" alt="safe" width="20px">&nbsp;
+                        <p>Safe Travel</p>
+                    </a>
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    <nav id="top_nav">
+                        <ul class="menu">
+                            <li><a class="line animate" href="index.html">Home</a></li>
+                            <li><a class="active animate" href="trails.html">Trails</a></li>
+                            <li><a class="line animate" href="about.html">About Us</a></li>
+                            <li><a class="line animate" href="contact.html">Contact</a></li>
+                            <li>
+                                <a class="button-bg flex items-center" href="#popup1">
+                                    <img src="images/safe.png" alt="safe" width="20px">&nbsp;
+                                    <p>Safe Travel</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2 class="font-MonotypeCursiva">Tips For Safe Travel</h2>
+                    <div id="activeCases"></div>
+
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <div class="flex items-center mb-3">
+                            <div class="mr-2"><img src="images/wash-hands.png" alt="wash hands" width="50px"></div>
+                            <div class="flex flex-col">
+                                <p class="mb-1 font-bold">Wash hands regularly</p>
+                                <p class="">Avoid touching your own eyes, nose and mouth with unwashed hands,
+                                    as viruses most frequently enter the body through these routes.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center mb-3">
+                            <div class="mr-2"><img src="images/hygiene.png" alt="wash hands" width="50px"></div>
+                            <div class="flex flex-col">
+                                <p class="mb-1 font-bold">Practice good hygiene</p>
+                                <p class="">If soap and water are not available to clean your hands, use a hand
+                                    sanitizer
+                                    which is at least 60% alcohol.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center mb-3">
+                            <div class="mr-2"><img src="images/cover-up.png" alt="wash hands" width="50px"></div>
+                            <div class="flex flex-col">
+                                <p class="mb-1 font-bold">Cover up</p>
+                                <p class="">Cover your mouth and nose when you cough, sneeze into your elbow and
+                                    wear a facemask to protect your fellow travelers. </p>
+                            </div>
+                        </div>
+                        <div class="flex items-center mb-3">
+                            <div class="mr-2"><img src="images/vaccine.png" alt="wash hands" width="50px"></div>
+                            <div class="flex flex-col">
+                                <p class="mb-1 font-bold">Have vaccinations up-to-date</p>
+                                <p class="">While there is no vaccine for COVID-19, having all other essential
+                                    vaccinations
+                                    up-to-date will help you stay healthy and prevent your immune system from
+                                    being compromised.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center mb-3">
+                            <div class="mr-2"><img src="images/keep-distance.png" alt="wash hands" width="50px"></div>
+                            <div class="flex flex-col">
+                                <p class="mb-1 font-bold">Maintain social distance</p>
+                                <p class="">Social distance must be maintained at all times during travel and during
+                                    interactions with people outside the group.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="white  capitalize text-center slide-top font-MonotypeCursiva">Something New Coming Soon!</h1>
+        </div>
+        <main>
+            <section id="slide1" class="slide">
+                <div class="slide1DivWidth">
+                    <h1 id="title" class="font-MonotypeCursiva">Wonderful things are ..</h1>
+                    <img src="images/TweA.gif" alt="coming soon" />
+            </section>
+
+            <a href="#wrapper"><button id="toTop" class="toTop-arrow show"></button></a>
+        </main>
+        <footer>
+            <div class="top white">
+                <div class="flex flexRowColumn justify-center items-start h-100">
+                    <div class="w-33 m-mb-4 textCenterLeft">
+                        <div class="mb-2"><img src="images/logo.png" alt="logo"></div>
+                        <div>
+                            <h4>CanCamper is Canada's first commercially
+                                approved MotorHome offering guided trails through Canada’s favourite locations.</h4>
+                        </div>
+                    </div>
+                    <div class="w-33 flex flex-col localNavStyling m-mb-2 textCenterJustify">
+                        <h4 class="mb-1">Trips</h4>
+                        <a href="trails.html" class="white">
+                            <p>Recommended trails</p>
+                        </a>
+                        <a href="buildtrail.html" class="white">
+                            <p>Build your own trails</p>
+                        </a>
+                        <p>Our Sites</p>
+                    </div>
+                    <div class="w-33 flex flex-col localNavStyling m-mb-2 textCenterJustify">
+                        <h4 class="mb-1">Others</h4>
+                        <p>Terms and Conditions</p>
+                        <p>Refund Policy</p>
+                        <p>Disclaimer</p>
+                        <p>Careers</p>
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+                <div id="screen"></div>
+
+            </div>
+            <div class="bottom">
+                <div class="flex flexRowColumn justify-between items-center w-100">
+                    <div class="m-pb-1"> &copy; 2020, CanCamper and Holidays Pvt. Ltd. </div>
+                    <div id="socialIcons" class="flex justify-center"></div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/app.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js'
+            type='text/javascript'></script>
+</body>
+
+
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "tag": "#Nature & wilderness",
+        "days": "2 days",
+        "title": "Peterborough",
+        "route" : "Toronto - Peterborough - Toronto"
+    }    ,
+    {
+        "tag": "#Nature & wilderness",
+        "days": "2 days",
+        "title": "Tobermory",
+        "route" : "Toronto - Tobermory - Toronto"
+    }   ,
+    {
+        "tag": "#Nature & wilderness",
+        "days": "2 days",
+        "title": "Algoquin Provincial Park",
+        "route" : "Toronto - Algoquin - Toronto"
+    } ,
+    {
+        "tag": "#Nature & wilderness",
+        "days": "2 days",
+        "title": "Killarney Provincial Park",
+        "route" : "Toronto - Killarney - Toronto"
+    } ,
+    {
+        "tag": "#Heritage",
+        "days": "2 days",
+        "title": "Ottawa",
+        "route" : "Toronto - Ottawa - Toronto"
+    }  ,
+    {
+        "tag": "#Adventure",
+        "days": "2 days",
+        "title": "Sudbury",
+        "route" : "Toronto - Sudbury - Toronto"
+    }   
+]
